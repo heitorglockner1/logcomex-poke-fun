@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "npx eslint --ext .js,.vue --ignore-path .gitignore --fix resources",
+        "format": "prettier .  --write"
+    },
+    "devDependencies": {
+        "@esbuild/linux-x64": "^0.23.1",
+        "@eslint/js": "^8.56.0",
+        "@mdi/font": "^7.4.47",
+        "@rollup/rollup-linux-x64-gnu": "^4.21.0",
+        "@vitejs/plugin-vue": "^5.1.2",
+        "@vue/compat": "^3.4.38",
+        "axios": "^1.7.5",
+        "bootstrap": "^5.3.3",
+        "bootstrap-vue": "^2.23.1",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-vue": "^9.27.0",
+        "globals": "^15.9.0",
+        "laravel-vite-plugin": "^1.0",
+        "prettier": "3.3.3",
+        "sass-embedded": "^1.77.8",
+        "vite": "^5.0",
+        "vite-plugin-vuetify": "^2.0.4",
+        "vuetify": "^3.7.0"
+    },
+    "dependencies": {
+        "vue": "^3.4.38",
+        "vue-router": "^4.4.3"
+    },
+    "resolutions": {
+        "rollup": "npm:@rollup/wasm-node"
+    }
+}
